@@ -1,6 +1,129 @@
 // @import 'yoga';
 // @import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+@import 'font-awesome';
 @import 'box-sizing';
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.outer-container {
+
+}
+
+.container {
+
+}
+
+.row {
+
+}
+
+.grid-item {
+
+}
+
+.shop-item {
+  border: solid 0.2rem blue;
+  width: 30%;
+  text-align: center;
+  margin: 2%;
+}
+
+.shirt-div {
+  width: 100%;
+}
+
+.shop-item-info {
+  color: #00aced;
+
+}
+
+.shop-item-buttons {
+  color: #00aced;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  border-top: solid #00aced;
+  margin: 0;
+}
+
+.dropdown {
+  border-right: solid #00aced;
+}
+
+.dropdown-options {
+  display: none;
+
+  :hover {
+    background: green;
+  }
+}
+
+.dropdown__options-items-shirt-color-pink {
+
+}
+
+.dropdown__options-items-shirt-color-blue {
+
+}
+
+.dropdown__options-items-shirt-color-yellow {
+
+}
+
+.dropdown__options-items-shirt-color-green {
+
+}
+
+.shop-button {
+  width: 20%;
+}
+
+.dropdown-options {
+  //*display: none;*//
+
+}
+
+.dropdown__options-item {
+
+}
+
+.fa-refresh {
+  border-right: solid #00aced;
+  padding-right: 30%;
+}
+
+.fa-heart-o {
+  border-right: solid #00aced;
+  padding-right: 35%;
+}
+
+.fa-square {
+
+}
+
+.dropdown__options-item dropdown__options-item-s {
+
+}
+
+.dropdown__options-item dropdown__options-item-m {
+
+}
+
+.dropdown__options-item dropdown__options-item-l {
+
+}
+
+.dropdown__options-item dropdown__options-item-xl {
+
+}
