@@ -24,25 +24,35 @@ img {
 
 
 .outer-container {
-
+  margin: 0;
+  padding: 0;
 }
 
 .container {
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .row {
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 3%;
 }
 
 .grid-item {
-
+  width: 25%;
+  margin: 0;
+  padding: 0;
 }
 
 .shop-item {
   border: solid 0.2rem $brand-primary;
-  width: 90%;
+  width: 100%;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .shirt-div {
@@ -54,23 +64,20 @@ img {
 
 }
 
-.buttons {
-
-}
-
 .shop-item-buttons {
   color: $brand-primary;
   width: 100%;
   list-style: none;
   display: flex;
   flex-direction: row;
-  padding: 5%;
+  padding: 0;
   border-top: solid $brand-primary;
   margin: 0;
 }
 
 .dropdown {
-
+  border-right: solid $brand-primary;
+  padding: 2% 5%;
 }
 
 .dropdown-options {
@@ -100,6 +107,8 @@ img {
 .shop-button {
   width: 20%;
   margin: 0;
+  padding: 2% 5%;
+  border-left: $brand-primary;
 }
 
 .dropdown-options {
@@ -113,21 +122,20 @@ img {
 .square {
   border-right: solid $brand-primary;
   border-left: solid $brand-primary;
+  padding: 2% 5%;
 }
 
 .fa-refresh {
-  //border-right: solid $brand-primary;
+  border-right: solid $brand-primary;
+  padding: 2% 5%;
 }
 
 .fa-heart-o {
-
+  border-left: solid $brand-primary;
+  padding: 2% 5%;
 }
 
 .fa-square {
-
-}
-
-.dropdown-sizes {
 
 }
 
@@ -148,17 +156,6 @@ img {
   background: $brand-primary;
 }
 
-.position-xl {
-
-}
-
 .cart-border {
   border-left: solid $brand-primary;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-bottom: 3%;
 }
