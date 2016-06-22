@@ -34,7 +34,6 @@ img {
   border: solid 0.2rem blue;
   width: 90%;
   text-align: center;
-  margin: 2%;
 }
 
 .shirt-div {
@@ -46,19 +45,23 @@ img {
 
 }
 
+.buttons {
+
+}
+
 .shop-item-buttons {
   color: #00aced;
   width: 100%;
   list-style: none;
   display: flex;
   flex-direction: row;
-  padding: 0;
+  padding: 5%;
   border-top: solid #00aced;
   margin: 0;
 }
 
 .dropdown {
-  border-right: solid #00aced;
+
 }
 
 .dropdown-options {
@@ -70,45 +73,52 @@ img {
 }
 
 .dropdown__options-items-shirt-color-pink {
-
+  color: pink;
 }
 
 .dropdown__options-items-shirt-color-blue {
-
+  color: #00aced;
 }
 
 .dropdown__options-items-shirt-color-yellow {
-
+  color: yellow;
 }
 
 .dropdown__options-items-shirt-color-green {
-
+  color: green;
 }
 
 .shop-button {
   width: 20%;
+  margin: 0;
 }
 
 .dropdown-options {
-  //*display: none;*//
-
+  display: none;
 }
 
 .dropdown__options-item {
+  display: none;
+}
 
+.square {
+  border-right: solid #00aced;
+  border-left: solid #00aced;
 }
 
 .fa-refresh {
-  border-right: solid #00aced;
-  padding-right: 30%;
+  //border-right: solid #00aced;
 }
 
 .fa-heart-o {
-  border-right: solid #00aced;
-  padding-right: 35%;
+
 }
 
 .fa-square {
+
+}
+
+.dropdown-sizes {
 
 }
 
@@ -125,7 +135,16 @@ img {
 }
 
 .dropdown__options-item dropdown__options-item-xl {
+  color: white;
+  background: #00aced;
+}
 
+.position-xl {
+
+}
+
+.cart-border {
+  border-left: solid #00aced;
 }
 
 .row {
