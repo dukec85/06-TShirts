@@ -76,7 +76,6 @@ img {
 }
 
 .dropdown {
-  border-right: solid $brand-primary;
   padding: 2% 5%;
 }
 
@@ -108,7 +107,13 @@ img {
   width: 20%;
   margin: 0;
   padding: 2% 5%;
-  border-left: $brand-primary;
+  border-right: solid $brand-primary;
+}
+
+.shop-button__cart {
+  width: 20%;
+  margin: 0;
+  padding: 2% 5%;
 }
 
 .dropdown-options {
@@ -120,23 +125,19 @@ img {
 }
 
 .square {
-  border-right: solid $brand-primary;
-  border-left: solid $brand-primary;
   padding: 2% 5%;
 }
 
 .fa-refresh {
-  border-right: solid $brand-primary;
   padding: 2% 5%;
 }
 
 .fa-heart-o {
-  border-left: solid $brand-primary;
   padding: 2% 5%;
 }
 
 .fa-square {
-
+  padding: 2% 5%;
 }
 
 .dropdown__options-item dropdown__options-item-s {
