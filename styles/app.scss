@@ -2,6 +2,15 @@
 // @import 'normalize';
 
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+
+$max-content-width: 60rem;
+$gutter: 1rem;
+$brand-primary: #3473b5;
+$brand-white: #fff;
+
+
+
+
 @import 'font-awesome';
 @import 'box-sizing';
 
@@ -31,7 +40,7 @@ img {
 }
 
 .shop-item {
-  border: solid 0.2rem blue;
+  border: solid 0.2rem $brand-primary;
   width: 90%;
   text-align: center;
 }
@@ -41,7 +50,7 @@ img {
 }
 
 .shop-item-info {
-  color: #00aced;
+  color: $brand-primary;
 
 }
 
@@ -50,13 +59,13 @@ img {
 }
 
 .shop-item-buttons {
-  color: #00aced;
+  color: $brand-primary;
   width: 100%;
   list-style: none;
   display: flex;
   flex-direction: row;
   padding: 5%;
-  border-top: solid #00aced;
+  border-top: solid $brand-primary;
   margin: 0;
 }
 
@@ -73,19 +82,19 @@ img {
 }
 
 .dropdown__options-items-shirt-color-pink {
-  color: pink;
+  color: #e577aa;
 }
 
 .dropdown__options-items-shirt-color-blue {
-  color: #00aced;
+  color: #72bbe9;
 }
 
 .dropdown__options-items-shirt-color-yellow {
-  color: yellow;
+  color: #e5b178;
 }
 
 .dropdown__options-items-shirt-color-green {
-  color: green;
+  color: #7abe93;
 }
 
 .shop-button {
@@ -102,12 +111,12 @@ img {
 }
 
 .square {
-  border-right: solid #00aced;
-  border-left: solid #00aced;
+  border-right: solid $brand-primary;
+  border-left: solid $brand-primary;
 }
 
 .fa-refresh {
-  //border-right: solid #00aced;
+  //border-right: solid $brand-primary;
 }
 
 .fa-heart-o {
@@ -135,8 +144,8 @@ img {
 }
 
 .dropdown__options-item dropdown__options-item-xl {
-  color: white;
-  background: #00aced;
+  color: $brand-white;
+  background: $brand-primary;
 }
 
 .position-xl {
@@ -144,7 +153,7 @@ img {
 }
 
 .cart-border {
-  border-left: solid #00aced;
+  border-left: solid $brand-primary;
 }
 
 .row {
