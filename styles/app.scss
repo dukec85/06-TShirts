@@ -90,8 +90,16 @@ img {
   }
 }
 
+.dropdown {
+  &:hover {
+    .dropdown-options {
+      display: flex;
+    }
+  }
+}
+
 .dropdown-options {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   width: calc(100% + 0.2rem + 0.2rem);
@@ -136,12 +144,13 @@ img {
   margin: 0;
   padding: 2% 5%;
   border-right: solid 0.2rem $brand-primary;
-}
-
-.shop-button__cart {
-  width: 20%;
-  margin: 0;
-  padding: 2% 5%;
+  &:hover {
+    background: $brand-primary;
+    color: $brand-white;
+  }
+  &:last-of-type {
+    border-right: 0;
+  }
 }
 
 .dropdown__options-item {
