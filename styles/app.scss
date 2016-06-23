@@ -61,7 +61,6 @@ img {
 
 .shop-item-info {
   color: $brand-primary;
-
 }
 
 .shop-item-buttons {
@@ -86,7 +85,6 @@ img {
     dropdown-options {
       display: flex;
     }
-
   }
 }
 
@@ -110,8 +108,6 @@ img {
   background: white;
   border-left: solid 0.2rem $brand-primary;
   border-right: solid 0.2rem $brand-primary;
-  // display: none;
-
 }
 
 .dropdown__options-items-shirt-color-pink {
@@ -119,24 +115,36 @@ img {
   border-top: solid 0.2rem $brand-primary;
   border-bottom: solid 0.2rem $brand-primary;
   width: 100%;
+  &:hover {
+    font-size: 1.4rem;
+  }
 }
 
 .dropdown__options-items-shirt-color-blue {
   color: #72bbe9;
   border-top: solid 0.2rem $brand-primary;
   width: 100%;
+  &:hover {
+    font-size: 1.4rem;
+  }
 }
 
 .dropdown__options-items-shirt-color-yellow {
   color: #e5b178;
   border-top: solid 0.2rem $brand-primary;
   width: 100%;
+  &:hover {
+    font-size: 1.4rem;
+  }
 }
 
 .dropdown__options-items-shirt-color-green {
   color: #7abe93;
   border-top: solid 0.2rem $brand-primary;
   width: 100%;
+  &:hover {
+    font-size: 1.4rem;
+  }
 }
 
 .shop-button {
@@ -180,6 +188,9 @@ img {
   width: 100%;
   justify-content: center;
   padding: 1.2%;
+  &:hover {
+    font-size: 1.4rem;
+  }
 }
 
 .dropdown__options-item-m {
@@ -189,6 +200,9 @@ img {
   width: 100%;
   justify-content: center;
   padding: 1.2%;
+  &:hover {
+    font-size: 1.4rem;
+  }
 }
 
 .dropdown__options-item-l {
@@ -197,7 +211,10 @@ img {
   border-top: solid 0.2rem $brand-primary;
   width: 100%;
   justify-content: center;
-  padding: 1.2%
+  padding: 1.2%;
+  &:hover {
+    font-size: 1.4rem;
+  }
 }
 
 .dropdown__options-item-xl {
@@ -208,4 +225,13 @@ img {
   width: 100%;
   justify-content: center;
   padding: 1.2%;
+  &:hover {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 60rem) {
+  .container {
+
+  }
 }
