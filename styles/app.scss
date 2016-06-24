@@ -7,8 +7,10 @@ $max-content-width: 60rem;
 $gutter: 1rem;
 $brand-primary: #3473b5;
 $brand-white: #fff;
-
-
+$brand-green: #7abe93;
+$brand-yellow: #e5b178;
+$brand-blue: #72bbe9;
+$brand-pink: #e577aa;
 
 
 @import 'font-awesome';
@@ -21,7 +23,6 @@ ul {
 img {
   max-width: 100%;
 }
-
 
 .outer-container {
   margin: 0;
@@ -116,7 +117,7 @@ img {
   border-top: solid 0.2rem $brand-primary;
   border-bottom: solid 0.2rem $brand-primary;
   background: $brand-white;
-  color: #e577aa;
+  color: $brand-pink;
 
   &:hover {
     font-size: 1.4rem;
@@ -127,7 +128,7 @@ img {
   width: 100%;
   border-top: solid 0.2rem $brand-primary;
   background: $brand-white;
-  color: #72bbe9;
+  color: $brand-blue;
 
   &:hover {
     font-size: 1.4rem;
@@ -138,7 +139,7 @@ img {
   width: 100%;
   border-top: solid 0.2rem $brand-primary;
   background: $brand-white;
-  color: #e5b178;
+  color: $brand-yellow;
 
   &:hover {
     font-size: 1.4rem;
@@ -149,7 +150,7 @@ img {
   width: 100%;
   border-top: solid 0.2rem $brand-primary;
   background: $brand-white;
-  color: #7abe93;
+  color: $brand-green;
 
   &:hover {
     font-size: 1.4rem;
@@ -344,9 +345,9 @@ img {
 
   .dropdown__options-items-shirt-color-pink {
     display: flex;
-    height: 111%;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    height: 111%;
     border-bottom: solid 0.2rem $brand-primary;
     border-left: solid 0.2rem $brand-primary;
 
@@ -357,14 +358,14 @@ img {
 
   .dropdown__options-items-shirt-color-blue {
     display: flex;
-    height: 111%;
-    justify-content: center;
     align-items: center;
-    border-left: solid 0.2rem $brand-primary;
+    justify-content: center;
+    height: 111%;
     border-bottom: solid 0.2rem $brand-primary;
+    border-left: solid 0.2rem $brand-primary;
 
-  &:hover {
-    font-size: 2.5rem;
+    &:hover {
+      font-size: 2.5rem;
   }
 }
 
@@ -413,9 +414,8 @@ img {
 
   .dropdown__options-item-m {
     display: flex;
-    height: 111%;
-    justify-content: center;
     align-items: center;
+    height: 111%;
     border-top: solid 0.2rem $brand-primary;
     border-bottom: solid 0.2rem $brand-primary;
     border-left: solid 0.2rem $brand-primary;
@@ -429,9 +429,9 @@ img {
 
   .dropdown__options-item-l {
     display: flex;
-    height: 111%;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    height: 111%;
     border-top: solid 0.2rem $brand-primary;
     border-bottom: solid 0.2rem $brand-primary;
     background: $brand-white;
