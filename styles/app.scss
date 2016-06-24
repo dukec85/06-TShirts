@@ -38,12 +38,15 @@ img {
 .row {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .grid-item {
-  width: 35%;
-  margin: 1.5%;
+  flex-grow: 1;
+  width: calc(100% / 3 - 1rem - 1rem);
+  min-width: 14rem;
+  margin: $gutter;
   padding: 0;
 }
 
