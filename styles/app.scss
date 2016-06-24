@@ -80,8 +80,6 @@ img {
   padding: $gutter;
   text-align: center;
 
-
-
   &:hover {
     dropdown-options {
       display: flex;
@@ -117,6 +115,7 @@ img {
   width: 100%;
   border-top: solid 0.2rem $brand-primary;
   border-bottom: solid 0.2rem $brand-primary;
+  background: $brand-white;
   color: #e577aa;
 
   &:hover {
@@ -127,6 +126,7 @@ img {
 .dropdown__options-items-shirt-color-blue {
   width: 100%;
   border-top: solid 0.2rem $brand-primary;
+  background: $brand-white;
   color: #72bbe9;
 
   &:hover {
@@ -137,6 +137,7 @@ img {
 .dropdown__options-items-shirt-color-yellow {
   width: 100%;
   border-top: solid 0.2rem $brand-primary;
+  background: $brand-white;
   color: #e5b178;
 
   &:hover {
@@ -147,6 +148,7 @@ img {
 .dropdown__options-items-shirt-color-green {
   width: 100%;
   border-top: solid 0.2rem $brand-primary;
+  background: $brand-white;
   color: #7abe93;
 
   &:hover {
@@ -239,8 +241,8 @@ img {
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 980px)
-{
+@media screen and (min-width: 500px) and (max-width: 980px) {
+
   .container {
     margin: 0 auto;
   }
@@ -263,17 +265,40 @@ img {
     padding: 0 0 0 2%;
   }
 
+  .square {
+    position: relative;
+    width: 100%;
+    padding: $gutter;
+    text-align: center;
+
+    &:hover {
+      dropdown-options {
+        display: flex;
+      }
+    }
+  }
+
+  .dropdown {
+    position: relative;
+
+    &:hover {
+      .dropdown-options {
+        display: flex;
+      }
+    }
+  }
+
   .dropdown-options {
     top: -0.2rem;
     right: 100%;
-    bottom: auto;
+    bottom: 100%;
     left: auto;
     flex-direction: row-reverse;
     align-items: stretch;
-    width: auto;
+    width: 100%;
     height: 100%;
     border-right: solid 0.2rem $brand-primary;
-    border-left: solid 0.2rem $brand-primary;
+    border-left: 0;
   }
 
   .shop-item-info {
@@ -293,18 +318,18 @@ img {
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 50%;
-    border-top: solid 0.2rem $brand-primary;
+    border-bottom: solid 0.2rem $brand-primary;
     border-right: solid 0;
 
     &:last-of-type {
-      border-top: 0;
+      border-bottom: 0;
   }
 }
 
   .shop-item-buttons {
+    font-size: 1.5rem;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-content: center;
     justify-content: space-between;
     width: 10%;
@@ -315,4 +340,121 @@ img {
     color: $brand-primary;
     list-style: none;
   }
+
+
+.dropdown__options-items-shirt-color-pink {
+  display: flex;
+  height: 111%;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 0.2rem $brand-primary;
+  border-left: solid 0.2rem $brand-primary;
+
+    &:hover {
+    font-size: 2.5rem;
+  }
+}
+
+.dropdown__options-items-shirt-color-blue {
+  display: flex;
+  height: 111%;
+  justify-content: center;
+  align-items: center;
+  border-left: solid 0.2rem $brand-primary;
+  border-bottom: solid 0.2rem $brand-primary;
+
+  &:hover {
+    font-size: 2.5rem;
+  }
+}
+
+.dropdown__options-items-shirt-color-yellow {
+  display: flex;
+  height: 111%;
+  justify-content: center;
+  align-items: center;
+  border-left: solid 0.2rem $brand-primary;
+  border-bottom: solid 0.2rem $brand-primary;
+
+  &:hover {
+    font-size: 2.5rem;
+  }
+}
+
+.dropdown__options-items-shirt-color-green {
+  display: flex;
+  height: 111%;
+  justify-content: center;
+  align-items: center;
+  border-left: solid 0.2rem $brand-primary;
+  border-bottom: solid 0.2rem $brand-primary;
+
+  &:hover {
+    font-size: 2.5rem;
+  }
+}
+
+.dropdown__options-item-s {
+  display: flex;
+  height: 111%;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 0.2rem $brand-primary;
+  border-bottom: solid 0.2rem $brand-primary;
+  border-left: solid 0.2rem $brand-primary;
+  background: $brand-white;
+  color: $brand-primary;
+
+  &:hover {
+    font-size: 2.5rem;
+  }
+}
+
+.dropdown__options-item-m {
+  display: flex;
+  height: 111%;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 0.2rem $brand-primary;
+  border-bottom: solid 0.2rem $brand-primary;
+  border-left: solid 0.2rem $brand-primary;
+  background: $brand-white;
+  color: $brand-primary;
+
+  &:hover {
+    font-size: 2.5rem;
+  }
+}
+
+.dropdown__options-item-l {
+  display: flex;
+  height: 111%;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 0.2rem $brand-primary;
+  border-bottom: solid 0.2rem $brand-primary;
+  background: $brand-white;
+  color: $brand-primary;
+
+  &:hover {
+    font-size: 2.5rem;
+  }
+}
+
+.dropdown__options-item-xl {
+  display: flex;
+  height: 111%;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 0.2rem $brand-primary;
+  border-right: solid 0.2rem $brand-primary;
+  border-bottom: solid 0.2rem $brand-primary;
+  border-left: solid 0.2rem $brand-primary;
+  background: $brand-white;
+  color: $brand-primary;
+
+  &:hover {
+    font-size: 2.5rem;
+  }
+}
 }
