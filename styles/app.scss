@@ -47,11 +47,11 @@ img {
 }
 
 .shop-item {
-  border: solid 0.2rem $brand-primary;
   width: 100%;
-  text-align: center;
   margin: 0;
   padding: 0;
+  border: solid 0.2rem $brand-primary;
+  text-align: center;
 }
 
 .shirt-div {
@@ -75,10 +75,11 @@ img {
 }
 
 .square {
+  position: relative;
   width: 100%;
   padding: $gutter;
   text-align: center;
-  position: relative;
+
 
 
   &:hover {
@@ -89,6 +90,8 @@ img {
 }
 
 .dropdown {
+  position: relative;
+
   &:hover {
     .dropdown-options {
       display: flex;
@@ -98,50 +101,54 @@ img {
 
 .dropdown-options {
   display: none;
-  flex-direction: column;
-  align-items: center;
-  width: calc(100% + 0.2rem + 0.2rem);
   position: absolute;
   bottom: 100%;
   left: -0.2rem;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% + 0.2rem + 0.2rem);
   padding: 0;
-  background: white;
-  border-left: solid 0.2rem $brand-primary;
   border-right: solid 0.2rem $brand-primary;
+  border-left: solid 0.2rem $brand-primary;
+  background: $brand-white;
 }
 
 .dropdown__options-items-shirt-color-pink {
-  color: #e577aa;
+  width: 100%;
   border-top: solid 0.2rem $brand-primary;
   border-bottom: solid 0.2rem $brand-primary;
-  width: 100%;
+  color: #e577aa;
+
   &:hover {
     font-size: 1.4rem;
   }
 }
 
 .dropdown__options-items-shirt-color-blue {
-  color: #72bbe9;
-  border-top: solid 0.2rem $brand-primary;
   width: 100%;
+  border-top: solid 0.2rem $brand-primary;
+  color: #72bbe9;
+
   &:hover {
     font-size: 1.4rem;
   }
 }
 
 .dropdown__options-items-shirt-color-yellow {
-  color: #e5b178;
-  border-top: solid 0.2rem $brand-primary;
   width: 100%;
+  border-top: solid 0.2rem $brand-primary;
+  color: #e5b178;
+
   &:hover {
     font-size: 1.4rem;
   }
 }
 
 .dropdown__options-items-shirt-color-green {
-  color: #7abe93;
-  border-top: solid 0.2rem $brand-primary;
   width: 100%;
+  border-top: solid 0.2rem $brand-primary;
+  color: #7abe93;
+
   &:hover {
     font-size: 1.4rem;
   }
@@ -152,10 +159,12 @@ img {
   margin: 0;
   padding: 2% 5%;
   border-right: solid 0.2rem $brand-primary;
+
   &:hover {
     background: $brand-primary;
     color: $brand-white;
   }
+
   &:last-of-type {
     border-right: 0;
   }
@@ -163,10 +172,6 @@ img {
 
 .dropdown__options-item {
   display: flex;
-}
-
-.dropdown {
-  position: relative;
 }
 
 .fa-refresh {
@@ -182,72 +187,76 @@ img {
 }
 
 .dropdown__options-item-s {
-  color: $brand-primary;
-  background: $brand-white;
-  border-top: solid 0.2rem $brand-primary;
-  width: 100%;
   justify-content: center;
+  width: 100%;
   padding: 1.2%;
+  border-top: solid 0.2rem $brand-primary;
+  background: $brand-white;
+  color: $brand-primary;
+
   &:hover {
     font-size: 1.4rem;
   }
 }
 
 .dropdown__options-item-m {
-  color: $brand-primary;
-  background: $brand-white;
-  border-top: solid 0.2rem $brand-primary;
-  width: 100%;
   justify-content: center;
+  width: 100%;
   padding: 1.2%;
+  border-top: solid 0.2rem $brand-primary;
+  background: $brand-white;
+  color: $brand-primary;
+
   &:hover {
     font-size: 1.4rem;
   }
 }
 
 .dropdown__options-item-l {
-  color: $brand-primary;
-  background: $brand-white;
-  border-top: solid 0.2rem $brand-primary;
-  width: 100%;
   justify-content: center;
+  width: 100%;
   padding: 1.2%;
+  border-top: solid 0.2rem $brand-primary;
+  background: $brand-white;
+  color: $brand-primary;
+
   &:hover {
     font-size: 1.4rem;
   }
 }
 
 .dropdown__options-item-xl {
-  color: $brand-primary;
-  background: $brand-white;
+  justify-content: center;
+  width: 100%;
+  padding: 1.2%;
   border-top: solid 0.2rem $brand-primary;
   border-bottom: solid 0.2rem $brand-primary;
-  width: 100%;
-  justify-content: center;
-  padding: 1.2%;
+  background: $brand-white;
+  color: $brand-primary;
+
   &:hover {
     font-size: 1.4rem;
   }
 }
 
 @media screen and (min-width: 500px) and (max-width: 980px)
-  {
-.container {
-  margin: 0 auto;
+{
+  .container {
+    margin: 0 auto;
   }
 
-.row {
+  .row {
     display: block;
     min-width: 200%;
   }
 
-.shop-item {
+  .shop-item {
     display: flex;
     flex-direction: row;
     margin-bottom: 1.5rem;
   }
 
-.shirt-div {
+  .shirt-div {
     display: flex;
     align-items: center;
     width: 120%;
@@ -255,16 +264,16 @@ img {
   }
 
   .dropdown-options {
-    flex-direction: row-reverse;
-    align-items: stretch;
-    width: auto;
-    height: 100%;
     top: -0.2rem;
     right: 100%;
     bottom: auto;
     left: auto;
-    border-left: solid 0.2rem $brand-primary;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    width: auto;
+    height: 100%;
     border-right: solid 0.2rem $brand-primary;
+    border-left: solid 0.2rem $brand-primary;
   }
 
   .shop-item-info {
@@ -281,12 +290,13 @@ img {
 
   .shop-button {
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 50%;
-    border-right: solid 0;
-    border-top: solid 0.2rem $brand-primary;
+    justify-content: center;
     width: 100%;
+    padding: 50%;
+    border-top: solid 0.2rem $brand-primary;
+    border-right: solid 0;
+
     &:last-of-type {
       border-top: 0;
   }
@@ -295,11 +305,11 @@ img {
   .shop-item-buttons {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: space-between;
     align-content: center;
-    border-top: 0;
+    justify-content: space-between;
     width: 10%;
     margin: 0;
+    border-top: 0;
     border-right: 0.2rem;
     border-left: solid 0.2rem $brand-primary;
     color: $brand-primary;
