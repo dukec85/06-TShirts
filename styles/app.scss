@@ -1,8 +1,6 @@
 // @import 'yoga';
 // @import 'normalize';
-
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-
 $max-content-width: 60rem;
 $gutter: 1rem;
 $brand-primary: #3473b5;
@@ -11,8 +9,6 @@ $brand-green: #7abe93;
 $brand-yellow: #e5b178;
 $brand-blue: #72bbe9;
 $brand-pink: #e577aa;
-
-
 @import 'font-awesome';
 @import 'box-sizing';
 
@@ -244,16 +240,18 @@ img {
     font-size: 1.4rem;
   }
 }
-
 @media screen and (min-width: 500px) and (max-width: 980px) {
-
   .container {
     margin: 0 auto;
   }
 
   .row {
     display: block;
-    min-width: 200%;
+    width: 100%;
+  }
+
+  .grid-item {
+    width: 100%;
   }
 
   .shop-item {
@@ -327,8 +325,8 @@ img {
 
     &:last-of-type {
       border-bottom: 0;
+    }
   }
-}
 
   .shop-item-buttons {
     display: flex;
@@ -345,7 +343,6 @@ img {
     list-style: none;
   }
 
-
   .dropdown__options-items-shirt-color-pink {
     display: flex;
     align-items: center;
@@ -358,8 +355,8 @@ img {
 
     &:hover {
       font-size: 2.5rem;
+    }
   }
-}
 
   .dropdown__options-items-shirt-color-blue {
     display: flex;
@@ -373,8 +370,8 @@ img {
 
     &:hover {
       font-size: 2.5rem;
+    }
   }
-}
 
   .dropdown__options-items-shirt-color-yellow {
     display: flex;
@@ -386,11 +383,10 @@ img {
     border-bottom: solid 0.2rem $brand-primary;
     border-left: solid 0.2rem $brand-primary;
 
-
     &:hover {
       font-size: 2.5rem;
+    }
   }
-}
 
   .dropdown__options-items-shirt-color-green {
     display: flex;
@@ -404,8 +400,8 @@ img {
 
     &:hover {
       font-size: 2.5rem;
+    }
   }
-}
 
   .dropdown__options-item-s {
     display: flex;
@@ -422,8 +418,8 @@ img {
 
     &:hover {
       font-size: 2.5rem;
+    }
   }
-}
 
   .dropdown__options-item-m {
     display: flex;
@@ -439,8 +435,8 @@ img {
 
     &:hover {
       font-size: 2.5rem;
+    }
   }
-}
 
   .dropdown__options-item-l {
     display: flex;
@@ -456,8 +452,8 @@ img {
 
     &:hover {
       font-size: 2.5rem;
+    }
   }
-}
 
   .dropdown__options-item-xl {
     display: flex;
@@ -475,6 +471,6 @@ img {
 
     &:hover {
       font-size: 2.5rem;
+    }
   }
-}
 }
