@@ -251,7 +251,7 @@ img {
   }
 
   .grid-item {
-    width: 100%;
+    width: calc(100% - #{$gutter} - #{$gutter});
   }
 
   .shop-item {
